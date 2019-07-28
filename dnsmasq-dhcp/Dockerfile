@@ -1,5 +1,6 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+#ARG BUILD_FROM
+#FROM $BUILD_FROM
+FROM homeassistant/aarch64-base:latest
 
 # Add env
 ENV LANG C.UTF-8
